@@ -18,12 +18,12 @@
 
 <!-- Evaluation of your app across the following attributes -->
 
-- **Category:**
-- **Mobile:**
-- **Story:**
-- **Market:**
-- **Habit:**
-- **Scope:**
+- **Category: Data List**
+- **Mobile: Mobile is used for checking a list of available coffee flavors that cafes can add onto their menu.**
+- **Story: Shows a scrollable list of coffee items with their name, image, and description that baristas can add onto their "favorites" list.**
+- **Market: Any coffee enthusiast or barista can use this app. The API is constantly expanding its coffee datasets which is available online for free.**
+- **Habit: Users can access it anytime throughout the day for inspiration and ideas of different crafts to make with their coffee.**
+- **Scope: We do not intend to create separate versions of this app. This app should automatically update based on the dataset uploaded in the Coffee API used.**
 
 ## Product Spec
 
@@ -31,31 +31,28 @@
 
 Required Features:
 
-- **fill in here**
-- ...
+- **Display a scrollable list of coffee items.**
+- **Display the name, image, and description of each coffee item.**
+- **Each item tapped by the user should automatically add into their own favorites list**
 
 Stretch Features:
 
-- **fill in here**
-- ...
+- **Search for a coffee query.**
+- **Allow multiple lists apart from default "favorites" list.**
+- **Remove an item from the favorites list.**
 
 ### 2. Chosen API(s)
 
-- **list first API endpoint here**
-  - **list associated required feature here**
-  - ...
-- ...
+- **<a href="https://api.sampleapis.com/coffee/hot" target="_blank">Sample API Hot Coffee</a>**
+- *Stretch:* **<a href="https://api.sampleapis.com/coffee/iced" target=_blank>Sample API Iced Coffee</a>**
 
 ### 3. User Interaction
 
 Required Feature
 
-- **list first user action here**
-  - => **list result of user action here**
-  - ...
-- **list second user action here**
-  - => **list result of user action here**
-  - ...
+- **Display Coffee:** User can scroll for list of coffee.
+  - => **user can tap on a coffee image.**
+  - => **coffee item gets added to list.**
 
 ## Wireframes
 
@@ -75,7 +72,7 @@ For Milestone 2, include **2+ Videos/GIFs** of the build process here!
 
 ## License
 
-Copyright **yyyy** **your name**
+Copyright **2023** **Hua Xiao, Mavis Javier, Shraddha Subash, Sydelle Mutabaruka, Pallavi Mekala**
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
