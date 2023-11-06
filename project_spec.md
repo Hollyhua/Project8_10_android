@@ -57,7 +57,15 @@ Required Feature
 ## Wireframes (Hand Sketched)
 
 <!-- Add picture of your hand sketched wireframes in this section -->
-<img src="https://ibb.co/0MtS87R" width=600>
+Main Landing Page:
+<img src="https://i.imgur.com/mNtMWyc.jpg" width=600>
+
+Coffee Browse Section:
+<img src="https://i.imgur.com/tcC1Aai.jpg" width=600>
+
+Favorites Page:
+<img src="https://i.imgur.com/Witpzqu.jpg" width=600>
+
 
 ### [BONUS] Digital Wireframes & Mockups
 
