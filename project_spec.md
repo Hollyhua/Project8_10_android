@@ -54,10 +54,10 @@ Required Feature
   - => **user can tap on a coffee image.**
   - => **coffee item gets added to list.**
 
-## Wireframes
+## Wireframes (Hand Sketched)
 
 <!-- Add picture of your hand sketched wireframes in this section -->
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+<img src="https://ibb.co/0MtS87R" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 
