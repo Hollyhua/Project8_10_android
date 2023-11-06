@@ -58,12 +58,18 @@ Required Feature
 
 <!-- Add picture of your hand sketched wireframes in this section -->
 Main Landing Page:
+
+
 <img src="https://i.imgur.com/mNtMWyc.jpg" width=600>
 
 Coffee Browse Section:
+
+
 <img src="https://i.imgur.com/tcC1Aai.jpg" width=600>
 
 Favorites Page:
+
+
 <img src="https://i.imgur.com/Witpzqu.jpg" width=600>
 
 
