@@ -42,7 +42,9 @@ Stretch Features:
 - **Remove an item from the favorites list.**
 
 ### 2. Chosen API(s)
-
+- **Get Coffee Images**
+  - User can search for a type of coffee
+  - User can filter results by name of coffee
 - **<a href="https://api.sampleapis.com/coffee/hot" target="_blank">Sample API Hot Coffee</a>**
 - *Stretch:* **<a href="https://api.sampleapis.com/coffee/iced" target=_blank>Sample API Iced Coffee</a>**
 
@@ -52,6 +54,7 @@ Required Feature
 
 - **Display Coffee:** User can scroll for list of coffee.
   - => **user can tap on a coffee image.**
+  - => **user can search the coffee by entering the name.**
   - => **coffee item gets added to list.**
 
 ## Wireframes (Hand Sketched)
