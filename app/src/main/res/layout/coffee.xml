@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <ImageView
+        android:id="@+id/coffee_image"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/placeholder"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/coffee_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:hint="title"
+        android:fontFamily="@font/aguafina_script"
+        android:textAppearance="@style/TextAppearance.Title"
+        app:layout_constraintTop_toBottomOf="@+id/coffee_image"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:id="@+id/coffee_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="description"
+        android:textAppearance="@style/TextAppearance.Title"
+        android:fontFamily="@font/akaya_telivigala"
+        app:layout_constraintTop_toBottomOf="@+id/coffee_title"
+        tools:layout_editor_absoluteX="0dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
