@@ -18,8 +18,8 @@
 
 <!-- Evaluation of your app across the following attributes -->
 
-- **Category: Data List**
-- **Mobile: Mobile is used for checking a list of available coffee flavors that cafes can add onto their menu.**
+- **Category: Lifestyle/Food**
+- **Mobile: Mobile is essential for the instant browsing. It is used for checking a list of available coffee flavors that cafes can add onto their menu. The user also can search the name of the coffee that they want to purchase.**
 - **Story: Shows a scrollable list of coffee items with their name, image, and description that baristas can add onto their "favorites" list.**
 - **Market: Any coffee enthusiast or barista can use this app. The API is constantly expanding its coffee datasets which is available online for free.**
 - **Habit: Users can access it anytime throughout the day for inspiration and ideas of different crafts to make with their coffee.**
