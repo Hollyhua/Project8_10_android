@@ -3,7 +3,7 @@
 
 ## New App Ideas - List
 ### Hua Xiao
-1. Pokemon Cartoon
+1. Pokemon Carton
 -Allow Pokémon Trading Card Game players look for related information such as energy and other properties of each pokemon characters.
 2. Math Problems
 -Allow elementary students to practice basic math calculation including addition, substraction, multiplicationa and division to help them to memeraze the fundamental math knowledge.
@@ -41,7 +41,7 @@
 
 ## Top 3 New App Ideas - Evaluate and Categorize
  
-1. Coffee Shop
+1. Coffee Lister
    - **Description:** Displays a list of coffee images with their name and description from a Coffee API, plus the searchable and favarite function.
    - **Category:** Lifestyle/Food
    - **Mobile:** Mobile is used for checking a list of available coffee flavors that cafes can add onto their menu. The user also can search the name of the coffee that they want to purchase.
@@ -69,7 +69,7 @@
    - **Scope:** V1 would allow users to search and visulize diverse colors.
 
 ## Final New App Ideas
- Coffee Shop
+ Coffee Lister
  - The API is more reachable
  - The app's function is more meaningful
  - The scope can be extended to a big project.
