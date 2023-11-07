@@ -7,22 +7,22 @@
 1. [Wireframes](#Wireframes)
 1. [Build Notes](#Build-Notes)
 
-## App Overview
+## App Overview 
 
 
 ### Description 
 
-**Our project will create an app that displays a scrollable list of coffee images with its name and description from the Coffee API, with the searchable and favarite function.**
+**Our project will create an app that displays a scrollable list of coffee images with their names and descriptions from the Coffee API, with the searchable and favorite function.**
 
 ### App Evaluation
 
 <!-- Evaluation of your app across the following attributes -->
 
 - **Category:** Lifestyle/Food
-- **Mobile:** Mobile is essential for the instant browsing. It is used for checking a list of available coffee flavors that cafes can add onto their menu. The user also can search the name of the coffee that they want to purchase.
-- **Story:** Shows a scrollable list of coffee items with their name, image, and description that baristas can add onto their "favorites" list.
-- **Market:** Any coffee enthusiast or barista can use this app. The API is constantly expanding its coffee datasets which is available online for free.
-- **Habit:** Users can access it anytime throughout the day for inspiration and ideas of different crafts to make with their coffee.
+- **Mobile:** Mobile is essential for the instant browsing. It is used for checking a list of available coffee flavors that cafes can add to their menu. The user also can search for the name of the coffee that they want to purchase.
+- **Story:** Shows a scrollable list of coffee items with their name, images, and descriptions that baristas can add to their "favorites" list.
+- **Market:** Any coffee enthusiast or barista can use this app. The API is constantly expanding its coffee datasets which are available online for free.
+- **Habit:** Users can access it anytime throughout the day for inspiration and ideas for different crafts to make with their coffee.
 - **Scope:** We do not intend to create separate versions of this app. This app should automatically update based on the dataset uploaded in the Coffee API used.
 
 ## Product Spec
@@ -33,12 +33,12 @@ Required Features:
 
 - **Display a scrollable list of coffee items.**
 - **Display the name, image, and description of each coffee item.**
-- **Each item tapped by the user should automatically add into their own favorites list**
+- **Each item tapped by the user should automatically be added to their own favorites list**
 
 Stretch Features:
 
 - **Search for a coffee query.**
-- **Allow multiple lists apart from default "favorites" list.**
+- **Allow multiple lists apart from the default "favorites" list.**
 - **Remove an item from the favorites list.**
 
 ### 2. Chosen API(s)
