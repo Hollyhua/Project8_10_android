@@ -77,10 +77,11 @@ Favorites Page:
 
 
 ### [BONUS] Digital Wireframes & Mockups
+Figma Link: https://www.figma.com/file/KqYIhrkoSIccYCD4wjUg90/Coffee-App?type=design&node-id=0%3A1&mode=design&t=Qq4z58lBmQhlGZx7-1
 
 ### [BONUS] Interactive Prototype
 
-## Build Notes
+Use the same Figma link and run! it should show the working prototype :)
 
 Here's a place for any other notes on the app, it's creation 
 process, or what you learned this unit!  
