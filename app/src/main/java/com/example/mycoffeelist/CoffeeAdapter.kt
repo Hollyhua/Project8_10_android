@@ -9,7 +9,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 
-class CoffeeAdapter(private val coffeeImgList: List<String>, private val coffeeTitleList: List<String>,private val coffeeDescList: List<String>) : RecyclerView.Adapter<CoffeeAdapter.ViewHolder>(){
+class CoffeeAdapter(private val coffeeList: List<CoffeeData>) : RecyclerView.Adapter<CoffeeAdapter.ViewHolder>(){
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val coffeeImage: ImageView
         val coffeeTitle: TextView
@@ -21,6 +21,7 @@ class CoffeeAdapter(private val coffeeImgList: List<String>, private val coffeeT
             coffeeTitle = view.findViewById(R.id.coffee_title)
             coffeeDescription = view.findViewById(R.id.coffee_description)
         }
+
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
@@ -31,13 +32,18 @@ class CoffeeAdapter(private val coffeeImgList: List<String>, private val coffeeT
         return ViewHolder(view)
     }
 
-    override fun getItemCount() = coffeeImgList.size
+    override fun getItemCount(): Int {
+        return coffeeList.size  // get the size of the dataset
+    }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        holder.coffeeTitle.text = coffeeTitleList [position]
-        holder.coffeeDescription.text = coffeeDescList[position]
-        Glide.with(holder.itemView)
-            .load(coffeeImgList[position])
+        val coffeeItem = coffeeList[position]
+
+        holder.coffeeTitle.text = coffeeItem.title
+        holder.coffeeDescription.text = coffeeItem.description
+
+        Glide.with(holder.itemView.context)
+            .load(coffeeItem.image)
             .centerCrop()
             .into(holder.coffeeImage)
 

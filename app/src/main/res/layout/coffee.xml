@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/name"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="8dp">
@@ -11,29 +11,39 @@
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:background="@drawable/placeholder"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.038" />
 
     <TextView
         android:id="@+id/coffee_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
+        android:fontFamily="@font/akaya_telivigala"
         android:hint="title"
-        android:fontFamily="@font/aguafina_script"
+        android:textColor="@color/teal_700"
+        android:textStyle="bold"
         android:textAppearance="@style/TextAppearance.Title"
-        app:layout_constraintTop_toBottomOf="@+id/coffee_image"
-        tools:layout_editor_absoluteX="16dp" />
+        app:layout_constraintEnd_toEndOf="@+id/coffee_image"
+        app:layout_constraintStart_toStartOf="@+id/coffee_image"
+        app:layout_constraintTop_toBottomOf="@+id/coffee_image" />
+
 
     <TextView
         android:id="@+id/coffee_description"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/akaya_telivigala"
         android:hint="description"
         android:textAppearance="@style/TextAppearance.Title"
-        android:fontFamily="@font/akaya_telivigala"
-        app:layout_constraintTop_toBottomOf="@+id/coffee_title"
-        tools:layout_editor_absoluteX="0dp" />
+        app:layout_constraintEnd_toEndOf="@+id/coffee_title"
+        app:layout_constraintStart_toStartOf="@+id/coffee_title"
+        app:layout_constraintTop_toBottomOf="@+id/coffee_title" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
