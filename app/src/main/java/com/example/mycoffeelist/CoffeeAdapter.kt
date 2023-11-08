@@ -9,7 +9,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 
-class CoffeeAdapter(private val coffeeList: List<CoffeeData>) : RecyclerView.Adapter<CoffeeAdapter.ViewHolder>(){
+class CoffeeAdapter(private var coffeeList: List<CoffeeData>) : RecyclerView.Adapter<CoffeeAdapter.ViewHolder>(){
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val coffeeImage: ImageView
         val coffeeTitle: TextView
@@ -30,6 +30,11 @@ class CoffeeAdapter(private val coffeeList: List<CoffeeData>) : RecyclerView.Ada
             .inflate(R.layout.coffee, parent, false)
 
         return ViewHolder(view)
+    }
+
+    fun setFilteredList(coffeeList: List<CoffeeData>) {
+        this.coffeeList = coffeeList
+        notifyDataSetChanged()
     }
 
     override fun getItemCount(): Int {
