@@ -1,6 +1,6 @@
 <!-- (This is a comment) INSTRUCTIONS: Go through this page and fill out any **bolded** entries with their correct values.-->
 
-# AND101 Milestone 1 - **Team 17/MyCoffee List**
+# AND101 Milestone 2 - **Team 17/MyCoffee List**
 
 Submitted by:
 - **Hua Xiao**
