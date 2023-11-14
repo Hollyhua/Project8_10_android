@@ -33,7 +33,7 @@ Required Features:
 
 - **Display a scrollable list of coffee items.**
 - **Display the name, image, and description of each coffee item.**
-- **Each item tapped by the user should automatically be added to their own favorites list**
+- **When clicked at the top, user can search through the coffee items**
 
 Stretch Features:
 
