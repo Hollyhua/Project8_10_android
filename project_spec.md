@@ -38,6 +38,7 @@ Required Features:
 Stretch Features:
 
 - **Search for a coffee query.**
+- **Implement Dark Mode**
 - **Allow multiple lists apart from the default "favorites" list.**
 - **Remove an item from the favorites list.**
 
