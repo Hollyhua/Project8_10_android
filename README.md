@@ -43,8 +43,14 @@ The following EXTRA features are implemented:
 
 [Here](https://youtu.be/IWUDKEiic2I)'s a video that demos all of the app's implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Demo' width='' alt='Video Demo' />
-
 VIDEO edited with CapCut. Free videos from Pexels.
+
+<br>
+Video of recyclerview of coffee list with dark mode and divider features <br>
+<img src='https://i.imgur.com/hOrV4Oq.gif' title='Video Demo' width='' alt='Video Demo' /> <br>
+Vidoe of the searching feature for user to search the coffee name <br>
+<img src='https://i.imgur.com/YCoYCGd.gif' title='Video Demo' width='' alt='Video Demo' /> <br>
+
+GIF created with **InShot**
 
 ## Notes
