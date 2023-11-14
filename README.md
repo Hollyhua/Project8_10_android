@@ -41,7 +41,7 @@ The following EXTRA features are implemented:
 
 ## 🎥 Demo Video
 
-Here's a video that demos all of the app's implemented features:
+[Here](https://youtu.be/dmwt7bTpiIg)'s a video that demos all of the app's implemented features:
 
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Demo' width='' alt='Video Demo' />
 
