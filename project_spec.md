@@ -83,10 +83,18 @@ Figma Link: https://www.figma.com/file/KqYIhrkoSIccYCD4wjUg90/Coffee-App?type=de
 
 Use the same Figma link and run! it should show the working prototype :)
 
+## Build Notes
 Here's a place for any other notes on the app, it's creation 
 process, or what you learned this unit!  
+We are still working on creating a favorite list that user can add their favorite coffee into the list, which is also like the shopping list.
 
 For Milestone 2, include **2+ Videos/GIFs** of the build process here!
+Step 1: Created recyclerview of coffee list with dark mode and divider features
+<img src='https://i.imgur.com/hOrV4Oq.gif' title='Video Demo' width='' alt='Video Demo' />
+Step 2: Added the searching feature for user to search the coffee name
+<img src='https://i.imgur.com/YCoYCGd.gif' title='Video Demo' width='' alt='Video Demo' />
+
+GIF created with **InShot**
 
 ## License
 
